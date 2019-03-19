@@ -8,9 +8,9 @@ def json_sum(filename):
         # convert json data into string
         json_data = str(json.load(f))
         # regex to find all numbers with or without - in front of them
-        regex = r'([0-9]+)|([-][0-9]+)'
-        # list of all numbers
-        my_list = [int(y) for x in re.findall(regex, json_data) for y in x if y != '']
+        regex2 = r'[0-9]+|[-][0-9]+'
+        # change type of numbers from string to integer so they can be summed
+        my_list = [int(x) for x in re.findall(regex2, json_data)]
         return sum(my_list)
 
 
