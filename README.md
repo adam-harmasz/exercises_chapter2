@@ -3,7 +3,7 @@ Exercises from chapter2 of Skygate recrutation process
 
 ## "Skyphrases"
 
-### Number of Valid skyphrases is <strong>383</strong>
+### Number of Valid skyphrases - <strong>383</strong>
 
 ##  "I write my programs in JSON"
 
